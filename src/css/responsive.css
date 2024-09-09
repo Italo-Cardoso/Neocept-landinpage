@@ -1,5 +1,84 @@
 @media (max-width: 480px) {
     
+    html {
+        background-color: rgb(230, 230, 230);
+    }
+
+    body {
+        animation: none;
+        margin-top: 1rem;
+        background-color: rgba(240, 248, 255, 0.61);
+    }
+    
+    .cabecalho {
+        display: none;
+    }
+
+    .sobre__titulo {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sobre__titulo h1 {
+        font-size: 1rem;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .sobre__titulo h2 {
+        position: relative;
+        font-size: 4rem;
+        top: 7rem;
+        padding-left: 0;
+        z-index: 0;
+    }
+
+    .circulodentro {
+        max-width: 65%;
+        position: absolute;
+        top: 5rem;
+        z-index: 0;
+        border-radius: 100%;
+        box-shadow: inset 0 0 20px 2px #000000a8;
+        animation: animacaoShadow 10s ease infinite;
+
+    }
+
+    .sobre__titulo h3 {
+        font-size: .9rem;
+        padding-left: 0;
+        margin-top: 15.5rem;
+    }
+
+    .sobre__btn {
+        padding-top: 1rem;
+    }
+
+    .sobre__btn button {
+        background-color: #000000e3;
+        padding: 1rem 2.5rem;
+    }
+
+    .sobre__btn button:hover {
+        background-color: rgba(236, 236, 236, 0.89);
+        padding: 1rem 2.5rem;
+    }
+
+    .sobre__btn button a {
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .sobre__btn button a:hover {
+        color: #000000e3;
+    }
+
+    .circulo {
+        display: none;
+        
+    }
+    
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
